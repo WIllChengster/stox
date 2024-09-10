@@ -1,9 +1,10 @@
 import React from 'react';
-import {selfUrl} from '../../config/secrets'
+import '../../envConfig'
 
 const Page = async () => {
+  const key = process.env.selfUrl
+  const data = await fetch(`${key}/api/ticker?ticker=AAPL`);
   
-  const data = await fetch(`${selfUrl}/api/ticker?ticker=AAPL`);
   console.log('data')
 
   return (
