@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Obtain API Keys
+Polygon: https://polygon.io/dashboard
+- update key at `config/secrets.js`
+
 ## Getting Started
 
 First, run the development server:
