@@ -5,7 +5,7 @@ const Page = async () => {
   const key = process.env.selfUrl
   const data = await fetch(`${key}/api/ticker?ticker=AAPL`);
   
-  console.log('data')
+  console.log(data)
 
   return (
     <div
