@@ -13,9 +13,6 @@ const Page = async () => {
     >
       ticker
 
-
-      
-
     </div>
   )
 }
